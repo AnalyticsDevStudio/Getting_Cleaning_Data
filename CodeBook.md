@@ -3,7 +3,7 @@ Code Book
 Identifiers:
 
 Subject - The ID of the test subject
-Sctivity - The type of activity performed when the corresponding measurements were taken
+Activity - The type of activity performed
 
 Measurements:
 
