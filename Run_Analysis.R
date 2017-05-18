@@ -37,5 +37,5 @@ names(SubTotal) <- "Subject"
 # and each subject.
 
 Full_Data <- cbind (XTotal, YTotal, SubTotal)
-TidyData <- ddply(Full_Data, .(Subject, Activity), function(x) colMeans(x[, 1:66]))
+write.table(Full_Data, "TidyData.txt", row.name=FALSE)
 
